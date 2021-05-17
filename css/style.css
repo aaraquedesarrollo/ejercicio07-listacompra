@@ -10,6 +10,13 @@ ul{
   list-style: none;
 }
 
+.barra-informativa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
 .elemento-lista{
   display: flex;
   justify-content: space-between;
