@@ -5,3 +5,36 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+
+ul{
+  list-style: none;
+}
+
+.elemento-lista{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.elemento-lista:hover{
+  background-color: #c16b1e;
+  color: #eee;
+}
+
+.icono-cruz{
+  margin-left: 20px;
+}
+
+.tachado{
+  text-decoration: line-through;
+}
+
+.hr{
+  color: #ccc;
+}
+
+.precio-final{
+  display: flex;
+  justify-content: flex-end;
+}
