@@ -6,45 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Lista de la compra">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>Lista de la compra</title>
 </head>
 
 <body>
-  <header class="cabecera">
-    <h1>Lista de la compra</h1>
-    <nav class="navegacion">
-      <ul>
-        <li>Principal</li>
-        <li class="pagina-actual">Lista</li>
-        <li>Acerca de</li>
-      </ul>
-    </nav>
-  </header>
+  <div class="contenedor-general">
+    <header class="cabecera">
+      <h1>Lista de la compra</h1>
+      <nav class="navegacion">
+        <ul>
+          <li>Principal</li>
+          <li class="pagina-actual">Lista</li>
+          <li>Acerca de</li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section class="barra-informativa">
-      <a href="formulario.html"><img src="img/añadir-elemento.png" alt="icono de suma" height="30"></a>
-      <h2>2/3 comprados</h2>
-    </section>
-    <section class="seccion-principal">
-      <ul class="elemento-lista">
-        <li class="tachado"><input type="checkbox" name="pan" id="pan"><label for="pan">Pan</label></li>
-        <li>0.75€<img class="icono-cruz" src="img/eliminar.png" alt="icono de cruz" height="18"></li>
-      </ul>
-      <ul class="elemento-lista">
-        <li><input type="checkbox" name="azucar" id="azucar"><label for="azucar">Azúcar</label></li>
-        <li><img src="img/eliminar.png" alt="icono de cruz" height="18"></li>
-      </ul>
-      <ul class="elemento-lista">
-        <li class="tachado"><input type="checkbox" name="leche" id="leche"><label for="leche">Leche</label></li>
-        <li>1.20€<img class="icono-cruz" src="img/eliminar.png" alt="icono de cruz" height="18"></li>
-      </ul>
-      <hr class="hr" />
-      <div class="precio-final">
-        <p>1.95€</p>
-      </div>
-    </section>
-  </main>
+    <main class="lista-articulos">
+      <section class="barra-informativa">
+        <a href="formulario.html"><img src="img/añadir-elemento.png" alt="icono de suma" height="30"></a>
+        <h2>2/3 comprados</h2>
+      </section>
+      <section class="seccion-principal">
+        <ul class="elemento-lista">
+          <li class="tachado"><input type="checkbox" name="pan" id="pan"><label for="pan">Pan</label></li>
+          <li>0.75€<img class="icono-cruz" src="img/eliminar.png" alt="icono de cruz" height="18"></li>
+        </ul>
+        <ul class="elemento-lista">
+          <li><input type="checkbox" name="azucar" id="azucar"><label for="azucar">Azúcar</label></li>
+          <li><img src="img/eliminar.png" alt="icono de cruz" height="18"></li>
+        </ul>
+        <ul class="elemento-lista">
+          <li class="tachado"><input type="checkbox" name="leche" id="leche"><label for="leche">Leche</label></li>
+          <li>1.20€<img class="icono-cruz" src="img/eliminar.png" alt="icono de cruz" height="18"></li>
+        </ul>
+        <hr class="hr" />
+        <div class="precio-final">
+          <p>1.95€</p>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
