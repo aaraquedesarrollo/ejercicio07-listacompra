@@ -64,13 +64,14 @@ ul{
 
 .seccion-principal{
   background-color: #ff8d27;
+  flex: 1;
 }
 
 .elemento-lista{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0px;
+  padding: 15px 20px;
 }
 
 .elemento-lista:hover{
@@ -93,4 +94,16 @@ ul{
 .precio-final{
   display: flex;
   justify-content: flex-end;
+}
+
+.lista-articulos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contenedor-general {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
