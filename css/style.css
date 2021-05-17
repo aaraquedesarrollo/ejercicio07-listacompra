@@ -1,7 +1,46 @@
+:root {
+  --color-cabecera: #5E81D1;
+  --color-barrainformativa: #F87500;
+  --color-listaarticulos: #FF8D27;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.cabecera {
+  background-color: var(--color-cabecera);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  min-height: 150px;
+}
+
+.cabecera h1 {
+  margin: 0;
+}
+
+.navegacion ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navegacion ul li {
+  text-decoration: none;
+  display: inline;
+  font-size: 1.1rem;
+}
+
+.navegacion ul li:hover {
+  text-decoration: underline;
+}
+
+.pagina-actual {
+  font-weight: bold;
 }
