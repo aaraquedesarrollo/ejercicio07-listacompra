@@ -65,6 +65,12 @@ ul{
 .seccion-principal{
   background-color: #ff8d27;
   flex: 1;
+  padding: 0px 20px;
+}
+
+.seccion-principal h2 {
+  font-size: 200%;
+  font-weight: 500;
 }
 
 .elemento-lista{
@@ -106,4 +112,28 @@ ul{
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+
+.formulario-articulo label {
+  font-size: 140%;
+  display: block;
+  margin: 10px 0px;
+}
+
+.formulario-articulo input {
+  height: 50px;
+  width: 300px;
+}
+
+.divisa {
+  display: inline !important;
+}
+
+.formulario-articulo button {
+  height: 50px;
+  width: 150px;
+  background-color: var(--color-cabecera);
+  color: white;
+  display: block;
+  margin: 10px 0px;
 }

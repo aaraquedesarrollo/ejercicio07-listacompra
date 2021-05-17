@@ -11,41 +11,41 @@
 </head>
 
 <body>
-  <header class="cabecera">
-    <h1>Lista de la compra</h1>
-    <nav class="navegacion">
-      <ul>
-        <li>Principal</li>
-        <li class="pagina-actual">Lista</li>
-        <li>Acerca de</li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="barra-informativa">
-      <a href="index.html"><img src="img/eliminar-elemento.png" alt="icono de resta" height="30"></a>
-      <h2>2/3 comprados</h2>
-    </section>
-    <section class="seccion-principal">
-      <h2>Editar artículo</h2>
-      <form action="#">
-        <label for="nombre">
-          Nombre:
-        </label>
-        <input type="text" id="nombre" required>
-        <label for="precio">
-          Precio:
-        </label>
-        <input type="number" id="precio">
-        <label for="precio">
-          €
-        </label>
-        <button type="submit">Modificar</button>
-      </form>
-    </section>
-
-  </main>
+  <div class="contenedor-general">
+    <header class="cabecera">
+      <h1>Lista de la compra</h1>
+      <nav class="navegacion">
+        <ul>
+          <li>Principal</li>
+          <li class="pagina-actual">Lista</li>
+          <li>Acerca de</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="lista-articulos">
+      <section class="barra-informativa">
+        <a href="index.html"><img src="img/eliminar-elemento.png" alt="icono de resta" height="30"></a>
+        <h2>2/3 comprados</h2>
+      </section>
+      <section class="seccion-principal">
+        <h2>Editar artículo</h2>
+        <form action="#" class="formulario-articulo">
+          <label for="nombre">
+            Nombre:
+          </label>
+          <input type="text" id="nombre" required>
+          <label for="precio">
+            Precio:
+          </label>
+          <input type="number" id="precio">
+          <label for="precio" class="divisa">
+            €
+          </label>
+          <button type="submit">Modificar</button>
+        </form>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
