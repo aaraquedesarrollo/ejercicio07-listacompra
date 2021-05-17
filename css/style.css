@@ -44,3 +44,53 @@ body {
 .pagina-actual {
   font-weight: bold;
 }
+ul{
+  list-style: none;
+}
+
+.color-cabecera{
+  background-color: #5e81d1;
+}
+
+.barra-informativa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f87500;
+  border-top: 1px solid #da6600;
+  border-bottom: 2px solid #da6600;
+}
+
+.seccion-principal{
+  background-color: #ff8d27;
+}
+
+.elemento-lista{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.elemento-lista:hover{
+  background-color: #c16b1e;
+  color: #eee;
+}
+
+.icono-cruz{
+  margin-left: 20px;
+}
+
+.tachado{
+  text-decoration: line-through;
+}
+
+.hr{
+  color: #ccc;
+}
+
+.precio-final{
+  display: flex;
+  justify-content: flex-end;
+}
