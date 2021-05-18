@@ -85,10 +85,6 @@ ul{
   color: #eee;
 }
 
-.icono-cruz{
-  margin-left: 20px;
-}
-
 .tachado{
   text-decoration: line-through;
 }
@@ -136,4 +132,14 @@ ul{
   color: white;
   display: block;
   margin: 10px 0px;
+}
+
+.icono{
+  color: #111;
+  font-size: 30px;
+}
+
+.icono_x{
+  font-size: 20px;
+  margin-left: 10px;
 }
