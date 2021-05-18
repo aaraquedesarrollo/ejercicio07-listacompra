@@ -85,11 +85,17 @@ ul li{
   font-weight: 500;
 }
 
+.listado-compra{
+  border-bottom: 1px solid #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .elemento-lista{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 5px 0px;
 }
 
 .elemento-lista:hover{
@@ -97,17 +103,18 @@ ul li{
   color: #eee;
 }
 
-.tachado{
-  text-decoration: line-through;
+.elemento-lista input{
+  margin-left: 0px;
 }
 
-.hr{
-  color: #ccc;
+.tachado{
+  text-decoration: line-through;
 }
 
 .precio-final{
   display: flex;
   justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .lista-articulos {
