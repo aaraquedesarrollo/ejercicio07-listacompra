@@ -119,6 +119,7 @@ ul{
 .formulario-articulo input {
   height: 50px;
   width: 300px;
+  font-family: inherit;
 }
 
 .divisa {
@@ -132,6 +133,7 @@ ul{
   color: white;
   display: block;
   margin: 10px 0px;
+  font-family: inherit;
 }
 
 .icono{
