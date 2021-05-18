@@ -141,3 +141,21 @@ ul{
   font-size: 20px;
   margin-left: 10px;
 }
+
+@media (max-width: 320px) {
+  .cabecera h1 {
+    font-size: 1.2rem;
+  }
+  .cabecera nav ul li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cabecera h1 {
+    font-size: 1.3rem;
+  }
+  .cabecera nav ul li {
+    font-size: 0.9rem;
+  }
+}
