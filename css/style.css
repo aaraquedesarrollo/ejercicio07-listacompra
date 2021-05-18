@@ -11,6 +11,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: var(--color-listaarticulos);
 }
 
 .cabecera {
@@ -104,11 +105,6 @@ ul{
   flex: 1;
 }
 
-.contenedor-general {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
 
 .formulario-articulo label {
   font-size: 140%;
