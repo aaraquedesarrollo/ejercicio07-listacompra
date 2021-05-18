@@ -57,11 +57,7 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
-
   padding: 5px 20px;
-
   background-color: #f87500;
   border-top: 1px solid #da6600;
   border-bottom: 2px solid #da6600;
@@ -74,6 +70,7 @@ ul{
 .seccion-principal{
   background-color: #ff8d27;
   flex: 1;
+  padding: 0px 20px;
 }
 
 .seccion-principal h2 {
@@ -85,7 +82,7 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 15px 0px;
 }
 
 .elemento-lista:hover{
@@ -137,6 +134,7 @@ ul{
   display: block;
   margin: 10px 0px;
   font-family: inherit;
+  font-size: 25px;
 }
 
 .icono{
