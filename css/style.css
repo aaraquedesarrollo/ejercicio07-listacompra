@@ -57,10 +57,14 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   background-color: #f87500;
   border-top: 1px solid #da6600;
   border-bottom: 2px solid #da6600;
+}
+
+.barra-informativa .articulos-comprados{
+  font-size: 1.5rem;
 }
 
 .seccion-principal{
