@@ -109,7 +109,6 @@ ul li{
 .precio-final{
   display: flex;
   justify-content: flex-end;
-  padding-right: 20px;
 }
 
 .lista-articulos {
